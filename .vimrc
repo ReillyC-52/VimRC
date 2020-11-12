@@ -1,6 +1,11 @@
 filetype plugin indent on
 syntax on
 
+"""""""""""""""""""""
+"""""""""""""""""""""
+""""""""SETS"""""""""
+"""""""""""""""""""""
+"""""""""""""""""""""
 set number
 set cursorline
 set noerrorbells
@@ -21,14 +26,6 @@ set showmatch
 let mapleader=" "
 :inoremap kj <Esc>
 :cnoremap kj <Esc>
-
-let g:airline_theme = 'tender'
-colorscheme tender
-
-if (has("termguicolors"))
- set termguicolors
-endif
-
 nmap <leader>nt :NERDTree<CR>
 nnoremap <silent> <leader>ntv :NERDTreeFind<CR>
 map <leader>h :wincmd h<CR>
@@ -37,6 +34,26 @@ map <leader>k :wincmd k<CR>
 map <leader>l :wincmd l<CR>
 set backspace=indent,eol,start
 
+
+"""""""""""""""""""""
+"""""""""""""""""""""
+""""""THEMEING"""""""
+"""""""""""""""""""""
+"""""""""""""""""""""
+let g:airline_theme = 'tender'
+colorscheme tender
+
+if (has("termguicolors"))
+ set termguicolors
+endif
+
+
+
+"""""""""""""""""""""
+"""""""""""""""""""""
+"""""PLUG INS""""""""
+"""""""""""""""""""""
+"""""""""""""""""""""
 call plug#begin('~/.vim/autoload')
 Plug 'junegunn/vim-easy-align'
 Plug 'preservim/nerdtree'
