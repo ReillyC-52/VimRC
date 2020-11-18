@@ -26,6 +26,8 @@ set showmatch
 let mapleader=" "
 :inoremap kj <Esc>
 :cnoremap kj <Esc>
+nmap <leader>ww :w<CR>
+nmap <leader>qq ZZ<CR>
 nmap <leader>nt :NERDTree<CR>
 nnoremap <silent> <leader>ntv :NERDTreeFind<CR>
 map <leader>h :wincmd h<CR>
@@ -33,7 +35,6 @@ map <leader>j :wincmd j<CR>
 map <leader>k :wincmd k<CR>
 map <leader>l :wincmd l<CR>
 set backspace=indent,eol,start
-
 
 """""""""""""""""""""
 """""""""""""""""""""
