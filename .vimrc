@@ -27,6 +27,7 @@ let mapleader=" "
 :inoremap kj <Esc>
 :cnoremap kj <Esc>
 nmap <leader>ww :w<CR>
+nmap <leader>wq :wq<CR>
 nmap <leader>qq ZZ<CR>
 nmap <leader>nt :NERDTree<CR>
 nnoremap <silent> <leader>ntv :NERDTreeFind<CR>
