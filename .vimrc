@@ -30,6 +30,7 @@ nmap <leader>ww :w<CR>
 nmap <leader>wq :wq<CR>
 nmap <leader>qq ZZ<CR>
 nmap <leader>nt :NERDTree<CR>
+vnoremap <C-c> "*y"
 nnoremap <silent> <leader>ntv :NERDTreeFind<CR>
 map <leader>h :wincmd h<CR>
 map <leader>j :wincmd j<CR>
