@@ -28,7 +28,7 @@ let mapleader=" "
 :cnoremap kj <Esc>
 nmap <leader>ww :w<CR>
 nmap <leader>wq :wq<CR>
-nmap <leader>qq ZZ<CR>
+nmap <leader>qq :q!<CR>
 nmap <leader>nt :NERDTree<CR>
 vnoremap <C-c> "*y"
 nnoremap <silent> <leader>ntv :NERDTreeFind<CR>
