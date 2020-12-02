@@ -36,6 +36,9 @@ map <leader>h :wincmd h<CR>
 map <leader>j :wincmd j<CR>
 map <leader>k :wincmd k<CR>
 map <leader>l :wincmd l<CR>
+map <leader>u :UndotreeShow<CR>
+map <silent><leader>gd :YcmCompleter GoTo<CR>
+map <silent><leader>gf :YcmCompleter FixItl<CR>
 set backspace=indent,eol,start
 
 """""""""""""""""""""
@@ -65,5 +68,7 @@ Plug 'preservim/nerdcommenter'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'preservim/nerdcommenter'
+Plug 'https://github.com/ycm-core/YouCompleteMe'
+Plug 'https://github.com/mbbill/undotree'
 Plug 'jacoborus/tender.vim'
 call plug#end()
