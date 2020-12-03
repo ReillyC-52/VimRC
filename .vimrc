@@ -46,8 +46,6 @@ set backspace=indent,eol,start
 """"""THEMEING"""""""
 """""""""""""""""""""
 """""""""""""""""""""
-let g:airline_theme = 'tender'
-colorscheme tender
 
 if (has("termguicolors"))
  set termguicolors
@@ -72,3 +70,7 @@ Plug 'https://github.com/ycm-core/YouCompleteMe'
 Plug 'https://github.com/mbbill/undotree'
 Plug 'jacoborus/tender.vim'
 call plug#end()
+
+
+let g:airline_theme = 'tender'
+colorscheme tender
