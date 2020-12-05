@@ -17,7 +17,7 @@ set shiftwidth=4
 set expandtab
 set smartindent
 set showmatch
-
+set relativenumber
 """""""""""""""""""""
 """""""""""""""""""""
 """""REMAPPING""""""
