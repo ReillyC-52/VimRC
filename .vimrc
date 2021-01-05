@@ -26,6 +26,9 @@ set relativenumber
 let mapleader=" "
 :inoremap kj <Esc>
 :cnoremap kj <Esc>
+:inoremap KJ <Esc>
+:cnoremap KJ <Esc>
+
 nmap <leader>ww :w<CR>
 nmap <leader>wq :wq<CR>
 nmap <leader>qq :q!<CR>
@@ -40,7 +43,6 @@ map <leader>u :UndotreeShow<CR>
 map <silent><leader>gd :YcmCompleter GoTo<CR>
 map <silent><leader>gf :YcmCompleter FixItl<CR>
 set backspace=indent,eol,start
-
 """""""""""""""""""""
 """""""""""""""""""""
 """"""THEMEING"""""""
